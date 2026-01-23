@@ -10,6 +10,6 @@ Un CLI python méga-utile pour convertir du texte en [orthographe d'apparat](htt
 
 ```
 $ uv run pyoa "salut la troupe"
-Transcription en orthographe d'apparat de 'salut la troupe' :
+Orthographe d'apparat de 'salut la troupe' :
 wigtleseu lesigt ghtrrheb
 ```
