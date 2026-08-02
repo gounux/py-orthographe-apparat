@@ -1,12 +1,12 @@
 [project]
 name = "py-orthographe-apparat"
-version = "0.2.1"
+version = "0.2.2"
 description = "Ürrhghtücrrhigtph gd igtbigtrrhigt aon bughtum"
 readme = "README.md"
 requires-python = ">=3.12"
 license = "AGPL-3.0-or-later"
 authors = [
-    { name = "Guilhem Allaman", email = "contact@guilhemallaman.net" },
+    { name = "gounux", email = "contact@guilhemallaman.net" },
 ]
 dependencies = [
     "pylirecouleur>=0.0.5",
