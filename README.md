@@ -1,6 +1,8 @@
 # py-orthographe-apparat
 
-Un CLI python méga-utile pour convertir du texte en [orthographe d'apparat](https://fr.wikipedia.org/wiki/Orthographe_d%27apparat), _mne alshughta bigt igt ëwëua !_
+Un CLI python pour convertir du texte en [orthographe d'apparat](https://fr.wikipedia.org/wiki/Orthographe_d%27apparat), _mne alshughta bigt igt ëwëua !_
+
+Ce projet utilise [`pylirecouleur`](https://pypi.org/project/pylirecouleur/) pour découper le texte français en phonèmes.
 
 ## Installation
 
