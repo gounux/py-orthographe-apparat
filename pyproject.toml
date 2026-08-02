@@ -1,16 +1,31 @@
 [project]
-name = "pyoa"
+name = "py-orthographe-apparat"
 version = "0.1.0"
 description = "Ürrhghtücrrhigtph gd igtbigtrrhigt aon bughtum"
 readme = "README.md"
 requires-python = ">=3.12"
+license = "AGPL-3.0-or-later"
+authors = [
+    { name = "Guilhem Allaman", email = "contact@guilhemallaman.net" },
+]
 dependencies = [
     "pylirecouleur>=0.0.5",
     "typer>=0.27.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/gounux/py-orthographe-apparat"
+Repository = "https://github.com/gounux/py-orthographe-apparat"
 
 [project.scripts]
 pyoa = "pyoa.cli:main"
 
 [tool.uv]
 package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyoa"]
