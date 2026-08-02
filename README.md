@@ -8,7 +8,7 @@ Un CLI python méga-utile pour convertir du texte en [orthographe d'apparat](htt
 
 - Lancer le CLI via `uv run pyoa "salut la troupe"` :
 
-```
+```text
 $ uv run pyoa "salut la troupe"
 Orthographe d'apparat de 'salut la troupe' :
 wigtleseu lesigt ghtrrheb
